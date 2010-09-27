@@ -21,8 +21,6 @@
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
 
-USE_CAMERA_STUB := true
-
 # inherit from the proprietary version
 -include vendor/samsung/spica/BoardConfigVendor.mk
 
@@ -38,6 +36,9 @@ TARGET_CPU_ABI := armeabi
 BOARD_USES_GENERIC_AUDIO := false
 BOARD_USES_ALSA_AUDIO := true
 BUILD_WITH_ALSA_UTILS := true
+
+USE_CAMERA_STUB := false
+BOARD_USES_ECLAIR_LIBCAMERA := true
 
 BOARD_HAVE_BLUETOOTH := true
 BT_USE_BTL_IF := true
