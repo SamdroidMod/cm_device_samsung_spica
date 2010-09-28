@@ -7,8 +7,6 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=160 \
-    rild.libpath=/system/lib/libsec-ril.so \
-    rild.libargs=-d /dev/ttyS0 \
     wifi.interface=eth0 \
     wifi.supplicant_scan_interval=15 \
     ro.product.multi_touch_enable=true \
