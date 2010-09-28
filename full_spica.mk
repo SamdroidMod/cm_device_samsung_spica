@@ -96,13 +96,21 @@ PRODUCT_COPY_FILES += \
     device/samsung/spica/prebuilt/ril/efsd:system/bin/efsd \
     device/samsung/spica/prebuilt/ril/rilclient-test:system/bin/rilclient-test \
     device/samsung/spica/prebuilt/ril/libsec-ril.so:system/lib/libsec-ril.so \
-    device/samsung/spica/prebuilt/ril/libril.so:system/lib/libril.so
+    device/samsung/spica/prebuilt/ril/libril.so:system/lib/libril.so \
+    device/samsung/spica/prebuilt/ril/rild:system/bin/rild
 
 #
 # Audio
 #
 PRODUCT_COPY_FILES += \
     device/samsung/spica/prebuilt/audio/asound.conf:system/etc/asound.conf
+
+#
+# Camera
+#
+PRODUCT_COPY_FILES += \
+    device/samsung/spica/prebuilt/camera/libcamera.so:system/lib/libcamera.so \
+    device/samsung/spica/prebuilt/camera/libs3cjpeg.so:system/lib/libs3cjpeg.so
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)

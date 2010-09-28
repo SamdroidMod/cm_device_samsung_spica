@@ -72,6 +72,7 @@ EOF
 
 BOARD_GPS_LIBRARIES := libclientgps libsecgps
 
+USE_CAMERA_STUB := false
 EOF
 
 mkdir -p ../../../vendor/samsung/spica/overlay/packages/apps/Launcher2/res/layout
