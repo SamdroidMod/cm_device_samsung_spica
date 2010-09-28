@@ -34,74 +34,74 @@ PRODUCT_COPY_FILES += \
 # Wifi
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/spica/prebuilt/spica/wifi/libwlmlogger.so:system/lib/libwlmlogger.so \
-    device/samsung/spica/prebuilt/spica/wifi/libwlservice.so:system/lib/libwlservice.so \
-    device/samsung/spica/prebuilt/spica/wifi/nvram.txt:system/etc/nvram.txt \
-    device/samsung/spica/prebuilt/spica/wifi/rtecdc.bin:system/etc/rtecdc.bin \
-    device/samsung/spica/prebuilt/spica/wifi/nvram_mfg.txt:system/etc/nvram_mfg.txt \
-    device/samsung/spica/prebuilt/spica/wifi/rtecdc_mfg.bin:system/etc/rtecdc_mfg.bin \
-    device/samsung/spica/prebuilt/spica/wifi/bcm_supp.conf:system/etc/bcm_supp.conf \
-    device/samsung/spica/prebuilt/spica/wifi/wifi.conf:system/etc/wifi.conf \
-    device/samsung/spica/prebuilt/spica/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    device/samsung/spica/prebuilt/spica/wifi/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
-    device/samsung/spica/prebuilt/spica/wifi/wlservice:system/bin/wlservice \
-    device/samsung/spica/prebuilt/spica/wifi/wpa_supplicant:system/bin/wpa_supplicant
+    device/samsung/spica/prebuilt/wifi/libwlmlogger.so:system/lib/libwlmlogger.so \
+    device/samsung/spica/prebuilt/wifi/libwlservice.so:system/lib/libwlservice.so \
+    device/samsung/spica/prebuilt/wifi/nvram.txt:system/etc/nvram.txt \
+    device/samsung/spica/prebuilt/wifi/rtecdc.bin:system/etc/rtecdc.bin \
+    device/samsung/spica/prebuilt/wifi/nvram_mfg.txt:system/etc/nvram_mfg.txt \
+    device/samsung/spica/prebuilt/wifi/rtecdc_mfg.bin:system/etc/rtecdc_mfg.bin \
+    device/samsung/spica/prebuilt/wifi/bcm_supp.conf:system/etc/bcm_supp.conf \
+    device/samsung/spica/prebuilt/wifi/wifi.conf:system/etc/wifi.conf \
+    device/samsung/spica/prebuilt/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    device/samsung/spica/prebuilt/wifi/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
+    device/samsung/spica/prebuilt/wifi/wlservice:system/bin/wlservice \
+    device/samsung/spica/prebuilt/wifi/wpa_supplicant:system/bin/wpa_supplicant
 
 #
 # Display (2D)
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/spica/prebuilt/spica/gralloc-libs/libs3c2drender.so:system/lib/libs3c2drender.so \
-    device/samsung/spica/prebuilt/spica/gralloc-libs/libsavscmn.so:system/lib/libsavscmn.so \
-    device/samsung/spica/prebuilt/spica/gralloc-libs/hw/gralloc.GT-I5700.so:system/lib/hw/gralloc.GT-I5700.so
+    device/samsung/spica/prebuilt/gralloc-libs/libs3c2drender.so:system/lib/libs3c2drender.so \
+    device/samsung/spica/prebuilt/gralloc-libs/libsavscmn.so:system/lib/libsavscmn.so \
+    device/samsung/spica/prebuilt/gralloc-libs/hw/gralloc.GT-I5700.so:system/lib/hw/gralloc.GT-I5700.so
 
 #
 # Display (3D)
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/spica/prebuilt/spica/egl/egl.cfg:system/lib/egl/egl.cfg \
-    device/samsung/spica/prebuilt/spica/egl/libChunkAlloc.so:system/lib/egl/libChunkAlloc.so \
-    device/samsung/spica/prebuilt/spica/egl/libEGL_fimg.so:system/lib/egl/libEGL_fimg.so \
-    device/samsung/spica/prebuilt/spica/egl/libGLESv1_CM_fimg.so:system/lib/egl/libGLESv1_CM_fimg.so \
-    device/samsung/spica/prebuilt/spica/egl/libGLESv2_fimg.so:system/lib/egl/libGLESv2_fimg.so
+    device/samsung/spica/prebuilt/egl/egl.cfg:system/lib/egl/egl.cfg \
+    device/samsung/spica/prebuilt/egl/libChunkAlloc.so:system/lib/egl/libChunkAlloc.so \
+    device/samsung/spica/prebuilt/egl/libEGL_fimg.so:system/lib/egl/libEGL_fimg.so \
+    device/samsung/spica/prebuilt/egl/libGLESv1_CM_fimg.so:system/lib/egl/libGLESv1_CM_fimg.so \
+    device/samsung/spica/prebuilt/egl/libGLESv2_fimg.so:system/lib/egl/libGLESv2_fimg.so
 
 #
 # Keys
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/spica/prebuilt/spica/keys/s3c-keypad-rev0020.kl:system/usr/keylayout/s3c-keypad-rev0020.kl \
-    device/samsung/spica/prebuilt/spica/keys/sec_headset.kl:system/usr/keylayout/sec_headset.kl \
-    device/samsung/spica/prebuilt/spica/keys/s3c-keypad-rev0020.kcm.bin:system/usr/keychars/s3c-keypad-rev0020.kcm.bin
+    device/samsung/spica/prebuilt/keys/s3c-keypad-rev0020.kl:system/usr/keylayout/s3c-keypad-rev0020.kl \
+    device/samsung/spica/prebuilt/keys/sec_headset.kl:system/usr/keylayout/sec_headset.kl \
+    device/samsung/spica/prebuilt/keys/s3c-keypad-rev0020.kcm.bin:system/usr/keychars/s3c-keypad-rev0020.kcm.bin
 
 #
 # Sensors, Lights etc
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/spica/prebuilt/spica/hw/copybit.GT-I5700.so:system/lib/hw/copybit.GT-I5700.so \
-    device/samsung/spica/prebuilt/spica/hw/lights.GT-I5700.so:system/lib/hw/lights.GT-I5700.so
+    device/samsung/spica/prebuilt/hw/copybit.GT-I5700.so:system/lib/hw/copybit.GT-I5700.so \
+    device/samsung/spica/prebuilt/hw/lights.GT-I5700.so:system/lib/hw/lights.GT-I5700.so
 
-#    device/samsung/spica/prebuilt/spica/hw/sensors.GT-I5700.so:system/lib/hw/sensors.GT-I5700.so 
+#    device/samsung/spica/prebuilt/hw/sensors.GT-I5700.so:system/lib/hw/sensors.GT-I5700.so 
 
 #
 # Vold
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/spica/prebuilt/spica/vold/vold.fstab:system/etc/vold.fstab
+    device/samsung/spica/prebuilt/vold/vold.fstab:system/etc/vold.fstab
 
 #
 # RIL
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/spica/prebuilt/spica/ril/drexe:system/bin/drexe \
-    device/samsung/spica/prebuilt/spica/ril/efsd:system/bin/efsd \
-    device/samsung/spica/prebuilt/spica/ril/rilclient-test:system/bin/rilclient-test \
-    device/samsung/spica/prebuilt/spica/ril/libsec-ril.so:system/lib/libsec-ril.so
+    device/samsung/spica/prebuilt/ril/drexe:system/bin/drexe \
+    device/samsung/spica/prebuilt/ril/efsd:system/bin/efsd \
+    device/samsung/spica/prebuilt/ril/rilclient-test:system/bin/rilclient-test \
+    device/samsung/spica/prebuilt/ril/libsec-ril.so:system/lib/libsec-ril.so
 
 #
 # Audio
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/spica/prebuilt/spica/audio/asound.conf:system/etc/asound.conf
+    device/samsung/spica/prebuilt/audio/asound.conf:system/etc/asound.conf
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
