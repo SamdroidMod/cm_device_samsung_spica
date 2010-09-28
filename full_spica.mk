@@ -95,7 +95,8 @@ PRODUCT_COPY_FILES += \
     device/samsung/spica/prebuilt/ril/drexe:system/bin/drexe \
     device/samsung/spica/prebuilt/ril/efsd:system/bin/efsd \
     device/samsung/spica/prebuilt/ril/rilclient-test:system/bin/rilclient-test \
-    device/samsung/spica/prebuilt/ril/libsec-ril.so:system/lib/libsec-ril.so
+    device/samsung/spica/prebuilt/ril/libsec-ril.so:system/lib/libsec-ril.so \
+    device/samsung/spica/prebuilt/ril/libril.so:system/lib/libril.so
 
 #
 # Audio
@@ -125,7 +126,7 @@ PRODUCT_LOCALES := mdpi
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_NAME := full_spica
-PRODUCT_DEVICE := spica
+PRODUCT_DEVICE := GT-I5700
 PRODUCT_MODEL := GT-I5700
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung

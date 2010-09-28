@@ -61,20 +61,20 @@ BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_USES_FFORMAT := true
 BOARD_RECOVERY_IGNORE_BOOTABLES := true
 
-BOARD_BOOT_DEVICE := /dev/block/bml7
-BOARD_DATA_DEVICE := /dev/block/mmcblk0p2
-BOARD_DATA_FILESYSTEM := rfs
-BOARD_DATA_FILESYSTEM_OPTIONS := llw,check=no,nosuid,nodev
-BOARD_HAS_DATADATA := true
-BOARD_DATADATA_DEVICE := /dev/block/stl10
-BOARD_DATADATA_FILESYSTEM := rfs
-BOARD_DATADATA_FILESYSTEM_OPTIONS := llw,check=no,nosuid,nodev
-BOARD_SYSTEM_DEVICE := /dev/block/stl9
-BOARD_SYSTEM_FILESYSTEM := rfs
-BOARD_SYSTEM_FILESYSTEM_OPTIONS := llw,check=no
-BOARD_CACHE_DEVICE := /dev/block/stl11
-BOARD_CACHE_FILESYSTEM := rfs
-BOARD_CACHE_FILESYSTEM_OPTIONS := llw,check=no,nosuid,nodev
+#BOARD_BOOT_DEVICE := /dev/block/bml7
+#BOARD_DATA_DEVICE := /dev/block/mmcblk0p2
+#BOARD_DATA_FILESYSTEM := rfs
+#BOARD_DATA_FILESYSTEM_OPTIONS := llw,check=no,nosuid,nodev
+#BOARD_HAS_DATADATA := true
+#BOARD_DATADATA_DEVICE := /dev/block/stl10
+#BOARD_DATADATA_FILESYSTEM := rfs
+#BOARD_DATADATA_FILESYSTEM_OPTIONS := llw,check=no,nosuid,nodev
+#BOARD_SYSTEM_DEVICE := /dev/block/stl9
+#BOARD_SYSTEM_FILESYSTEM := rfs
+#BOARD_SYSTEM_FILESYSTEM_OPTIONS := llw,check=no
+#BOARD_CACHE_DEVICE := /dev/block/stl11
+#BOARD_CACHE_FILESYSTEM := rfs
+#BOARD_CACHE_FILESYSTEM_OPTIONS := llw,check=no,nosuid,nodev
 # The following is the *actual* sd card, but those don't mount in recovery.
 # The mmc blocks aren't even available.
 # Only internal storage (mmcblk0) is available.
