@@ -127,7 +127,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapsize=48m
 
 # Vibrant uses high-density artwork where available
-PRODUCT_LOCALES := mdpi
+PRODUCT_LOCALES += mdpi
 
 $(call inherit-product, build/target/product/full.mk)
 
