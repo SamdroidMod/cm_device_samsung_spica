@@ -13,4 +13,4 @@
 # limitations under the License.
 
 
-include $(call all-named-subdir-makefiles, alsa_sound gps camera)
+include $(call all-named-subdir-makefiles, alsa_sound gps camera libsensors akmd)
