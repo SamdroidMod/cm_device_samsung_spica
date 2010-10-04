@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/spica/prebuilt/ril/rilclient-test:system/bin/rilclient-test \
     device/samsung/spica/prebuilt/ril/libsec-ril.so:system/lib/libsec-ril.so \
     device/samsung/spica/prebuilt/ril/libril.so:system/lib/libril.so \
+    device/samsung/spica/prebuilt/ril/libwpa_client.so:system/lib/libwpa_client.so \
     device/samsung/spica/prebuilt/ril/rild:system/bin/rild
 
 #
