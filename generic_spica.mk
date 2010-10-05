@@ -20,7 +20,7 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/htc/hero/device_spica.mk)
+$(call inherit-product, device/samsung/spica/device_spica.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic.mk)
 
 # Discard inherited values and use our own instead.
