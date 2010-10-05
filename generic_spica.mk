@@ -13,10 +13,16 @@
 # limitations under the License.
 
 #
-# This file lists the product definition files that define
-# configurations which are actually buildable (e.g. through lunch)
+# This file is the build configuration for a generic Android
+# build for hero hardware. This cleanly combines a set of
+# device-specific aspects (drivers) with a device-agnostic
+# product configuration (apps).
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/generic_spica.mk \
-    $(LOCAL_DIR)/full_spica.mk
+# Inherit from those products. Most specific first.
+$(call inherit-product, device/htc/hero/device_spica.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/generic.mk)
+
+# Discard inherited values and use our own instead.
+PRODUCT_NAME := generic_spica
+PRODUCT_DEVICE := spica
